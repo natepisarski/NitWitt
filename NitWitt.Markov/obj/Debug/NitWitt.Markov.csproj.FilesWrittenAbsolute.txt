@@ -1,0 +1,5 @@
+/home/nate/Code/Project/NitWitt/NitWitt.Markov/obj/Debug/.NETFramework,Version=v4.5.AssemblyAttribute.cs
+/home/nate/Code/Project/NitWitt/NitWitt.Markov/bin/Debug/NitWitt.Markov.dll.mdb
+/home/nate/Code/Project/NitWitt/NitWitt.Markov/bin/Debug/NitWitt.Markov.dll
+/home/nate/Code/Project/NitWitt/NitWitt.Markov/obj/Debug/NitWitt.Markov.dll
+/home/nate/Code/Project/NitWitt/NitWitt.Markov/obj/Debug/NitWitt.Markov.dll.mdb
