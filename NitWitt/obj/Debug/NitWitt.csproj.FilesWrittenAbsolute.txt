@@ -1,0 +1,16 @@
+/home/nate/Code/Project/NitWitt/NitWitt/obj/Debug/.NETFramework,Version=v4.5.AssemblyAttribute.cs
+/home/nate/Code/Project/NitWitt/NitWitt/bin/NitWitt.dll.mdb
+/home/nate/Code/Project/NitWitt/NitWitt/bin/NitWitt.dll
+/home/nate/Code/Project/NitWitt/NitWitt/obj/Debug/NitWitt.dll
+/home/nate/Code/Project/NitWitt/NitWitt/obj/Debug/NitWitt.dll.mdb
+/home/nate/Code/Project/NitWitt/NitWitt/bin/Microsoft.Web.Infrastructure.dll
+/home/nate/Code/Project/NitWitt/NitWitt/bin/Newtonsoft.Json.dll
+/home/nate/Code/Project/NitWitt/NitWitt/bin/System.Net.Http.Formatting.dll
+/home/nate/Code/Project/NitWitt/NitWitt/bin/System.Web.Http.dll
+/home/nate/Code/Project/NitWitt/NitWitt/bin/System.Web.Http.WebHost.dll
+/home/nate/Code/Project/NitWitt/NitWitt/bin/System.Web.Helpers.dll
+/home/nate/Code/Project/NitWitt/NitWitt/bin/System.Web.Mvc.dll
+/home/nate/Code/Project/NitWitt/NitWitt/bin/System.Web.Razor.dll
+/home/nate/Code/Project/NitWitt/NitWitt/bin/System.Web.WebPages.dll
+/home/nate/Code/Project/NitWitt/NitWitt/bin/System.Web.WebPages.Deployment.dll
+/home/nate/Code/Project/NitWitt/NitWitt/bin/System.Web.WebPages.Razor.dll
