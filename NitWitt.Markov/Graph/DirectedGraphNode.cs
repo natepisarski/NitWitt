@@ -5,7 +5,7 @@ using Bolster.API.Status.Stateless;
 using Bolster.Base;
 using Bolster.Base.Interface;
 
-namespace NitWitt.Markov
+namespace NitWitt.Markov.Graph
 {
     public class DirectedGraphNode<T, W, Z> where W: INodeMetadata where Z: IEdgeMetadata
     {

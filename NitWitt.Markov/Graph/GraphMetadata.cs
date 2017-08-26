@@ -1,4 +1,4 @@
-﻿namespace NitWitt.Markov
+﻿namespace NitWitt.Markov.Graph
 {
     public interface INodeMetadata
     {

@@ -1,0 +1,11 @@
+/home/nate/Code/Project/NitWitt/NitWitt.Tests/obj/Debug/.NETFramework,Version=v4.5.AssemblyAttribute.cs
+/home/nate/Code/Project/NitWitt/NitWitt.Tests/bin/Debug/NitWitt.Tests.dll.mdb
+/home/nate/Code/Project/NitWitt/NitWitt.Tests/bin/Debug/NitWitt.Tests.dll
+/home/nate/Code/Project/NitWitt/NitWitt.Tests/obj/Debug/NitWitt.Tests.dll
+/home/nate/Code/Project/NitWitt/NitWitt.Tests/obj/Debug/NitWitt.Tests.dll.mdb
+/home/nate/Code/Project/NitWitt/NitWitt.Tests/bin/Debug/nunit.framework.dll
+/home/nate/Code/Project/NitWitt/NitWitt.Tests/bin/Debug/NitWitt.Markov.dll
+/home/nate/Code/Project/NitWitt/NitWitt.Tests/bin/Debug/NitWitt.Markov.dll.mdb
+/home/nate/Code/Project/NitWitt/NitWitt.Tests/bin/Debug/Bolster.Base.dll
+/home/nate/Code/Project/NitWitt/NitWitt.Tests/bin/Debug/Bolster.API.dll
+/home/nate/Code/Project/NitWitt/NitWitt.Tests/bin/Debug/Bolster.Base.Theory.dll

@@ -1,7 +1,7 @@
 ﻿using Bolster.Base;
 using Bolster.Base.Interface;
 
-namespace NitWitt.Markov
+namespace NitWitt.Markov.Graph
 {
     public class DirectedGraphEdge<T, W, Z> where W: IEdgeMetadata where Z: INodeMetadata
     {

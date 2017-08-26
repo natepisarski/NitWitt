@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NitWitt", "NitWitt/NitWitt.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NitWitt.Markov", "NitWitt.Markov\NitWitt.Markov.csproj", "{5BC91FED-91F4-4883-9674-8CA3E87C29EB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NitWitt.Tests", "NitWitt.Tests\NitWitt.Tests.csproj", "{783C0738-7E57-43DF-A4B1-69B871A1AE27}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{5BC91FED-91F4-4883-9674-8CA3E87C29EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5BC91FED-91F4-4883-9674-8CA3E87C29EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5BC91FED-91F4-4883-9674-8CA3E87C29EB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{783C0738-7E57-43DF-A4B1-69B871A1AE27}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{783C0738-7E57-43DF-A4B1-69B871A1AE27}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{783C0738-7E57-43DF-A4B1-69B871A1AE27}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{783C0738-7E57-43DF-A4B1-69B871A1AE27}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

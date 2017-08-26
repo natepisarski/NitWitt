@@ -4,12 +4,12 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{5BC91FED-91F4-4883-9674-8CA3E87C29EB}</ProjectGuid>
+    <ProjectGuid>{783C0738-7E57-43DF-A4B1-69B871A1AE27}</ProjectGuid>
     <ProjectTypeGuids>{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>NitWitt.Markov</RootNamespace>
-    <AssemblyName>NitWitt.Markov</AssemblyName>
+    <RootNamespace>NitWitt.Tests</RootNamespace>
+    <AssemblyName>NitWitt.Tests</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -33,39 +33,23 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Bolster, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-      <HintPath>..\..\Bolster\Bolster\bin\Debug\Bolster.dll</HintPath>
-    </Reference>
-    <Reference Include="Bolster.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-      <HintPath>..\..\Bolster\Bolster\bin\Debug\Bolster.API.dll</HintPath>
-    </Reference>
-    <Reference Include="Bolster.Base, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-      <HintPath>..\..\Bolster\Bolster\bin\Debug\Bolster.Base.dll</HintPath>
-    </Reference>
-    <Reference Include="Bolster.Base.Theory, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-      <HintPath>..\..\Bolster\Bolster\bin\Debug\Bolster.Base.Theory.dll</HintPath>
-    </Reference>
-    <Reference Include="Bolster.Utility, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-      <HintPath>..\..\Bolster\Bolster\bin\Debug\Bolster.Utility.dll</HintPath>
-    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Data" />
     <Reference Include="System.Xml" />
+    <Reference Include="nunit.framework, Version=3.5.0.0, Culture=neutral, PublicKeyToken=2638cd05610744eb">
+      <HintPath>..\packages\NUnit.3.5.0\lib\net45\nunit.framework.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Graph\DirectedGraphEdge.cs" />
-    <Compile Include="Graph\DirectedGraphNode.cs" />
-    <Compile Include="Graph\DirectedProbabilityGraph.cs" />
-    <Compile Include="Graph\GraphMetadata.cs" />
-    <Compile Include="Graph\MarkovEdge.cs" />
-    <Compile Include="Graph\MarkovEdgeMetadata.cs" />
-    <Compile Include="Graph\MarkovNode.cs" />
-    <Compile Include="Graph\MarkovNodeMetadata.cs" />
-    <Compile Include="Markov.cs" />
-    <Compile Include="MarkovDataset.cs" />
-    <Compile Include="MarkovEngine.cs" />
+    <Compile Include="Tests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\NitWitt.Markov\NitWitt.Markov.csproj">
+      <Project>{5bc91fed-91f4-4883-9674-8ca3e87c29eb}</Project>
+      <Name>NitWitt.Markov</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
