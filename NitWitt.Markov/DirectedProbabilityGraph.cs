@@ -1,11 +1,23 @@
-﻿namespace NitWitt.Markov
+﻿using System.Collections.Generic;
+using System.Linq;
+using Bolster.API.Interface.Stateless;
+using Bolster.API.Status.Stateless;
+using Bolster.Base;
+
+namespace NitWitt.Markov
 {
-    /// <summary>
-    /// The DirectedProbabilityGraph is the underlying datastructure for the Markov system.
-    /// It can be run efficiently to generate Markov Chains
-    /// </summary>
-    public class DirectedProbabilityGraph
+    public class MarkovNode : DirectedGraphNode<List<string>, MarkovNodeMetadata, MarkovEdgeMetadata>
     {
-        
+        public MarkovNode(List<string> words, MarkovNodeMetadata data = null) : base(words, data) {
+            
+        }
+    }
+
+    public class MarkovEdge : DirectedGraphEdge<List<string>, MarkovEdgeMetadata, MarkovNodeMetadata>
+    {
+        public MarkovEdge(MarkovNode source, MarkovNode target, MarkovEdgeMetadata data = null) : base(source, target,
+            data) {
+            
+        }
     }
 }

@@ -2,13 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e09bc768-be05-41dd-b038-1be379bef054" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/.idea.NitWitt/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NitWitt.Markov/DirectedProbabilityGraph.cs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NitWitt.Markov/Markov.cs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NitWitt.Markov/MarkovDataset.cs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NitWitt.Markov/DirectedGraphEdge.cs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NitWitt.Markov/DirectedGraphNode.cs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NitWitt.Markov/GraphMetadata.cs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NitWitt.Markov/MarkovEdgeMetadata.cs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NitWitt.Markov/MarkovNodeMetadata.cs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NitWitt.Markov/bin/Debug/NitWitt.Markov.dll" afterPath="$PROJECT_DIR$/NitWitt.Markov/bin/Debug/NitWitt.Markov.dll" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NitWitt.Markov/bin/Debug/NitWitt.Markov.dll.mdb" afterPath="$PROJECT_DIR$/NitWitt.Markov/bin/Debug/NitWitt.Markov.dll.mdb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NitWitt.Markov/obj/Debug/NitWitt.Markov.dll" afterPath="$PROJECT_DIR$/NitWitt.Markov/obj/Debug/NitWitt.Markov.dll" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NitWitt.Markov/obj/Debug/NitWitt.Markov.dll.mdb" afterPath="$PROJECT_DIR$/NitWitt.Markov/obj/Debug/NitWitt.Markov.dll.mdb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.idea.NitWitt/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/.idea.NitWitt/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.idea.NitWitt/riderModule.iml" afterPath="$PROJECT_DIR$/.idea/.idea.NitWitt/riderModule.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NitWitt.sln" afterPath="$PROJECT_DIR$/NitWitt.sln" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NitWitt.Markov/DirectedProbabilityGraph.cs" afterPath="$PROJECT_DIR$/NitWitt.Markov/DirectedProbabilityGraph.cs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NitWitt.Markov/NitWitt.Markov.csproj" afterPath="$PROJECT_DIR$/NitWitt.Markov/NitWitt.Markov.csproj" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NitWitt.Markov/obj/Debug/NitWitt.Markov.csproj.FilesWrittenAbsolute.txt" afterPath="$PROJECT_DIR$/NitWitt.Markov/obj/Debug/NitWitt.Markov.csproj.FilesWrittenAbsolute.txt" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -20,30 +26,6 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="HomeController.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/NitWitt/Controllers/HomeController.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="112">
-              <caret line="8" column="52" lean-forward="false" selection-start-line="8" selection-start-column="52" selection-end-line="8" selection-end-column="52" />
-              <folding>
-                <marker date="1503627419846" expanded="true" signature="53:264" ph="{...}" />
-                <marker date="1503627419846" expanded="true" signature="103:262" ph="{...}" />
-                <marker date="1503627419846" expanded="true" signature="188:256" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Global.asax" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/NitWitt/Global.asax">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Global.asax.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/NitWitt/Global.asax.cs">
           <provider selected="true" editor-type-id="text-editor">
@@ -87,15 +69,88 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DirectedProbabilityGraph.cs" pinned="false" current-in-tab="true">
+      <file leaf-file-name="DirectedProbabilityGraph.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/NitWitt.Markov/DirectedProbabilityGraph.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="140">
-              <caret line="10" column="1" lean-forward="false" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+            <state relative-caret-position="112">
+              <caret line="8" column="100" lean-forward="false" selection-start-line="8" selection-start-column="100" selection-end-line="8" selection-end-column="100" />
               <folding>
-                <marker date="1503627772765" expanded="true" signature="24:280" ph="{...}" />
-                <marker date="1503627772765" expanded="true" signature="31:215" ph="/// The DirectedProbabilityGraph is the underlying datastructure for the Markov system. ... " />
-                <marker date="1503627772765" expanded="true" signature="257:278" ph="{...}" />
+                <marker date="1503757292698" expanded="true" signature="6:147" ph="..." />
+                <marker date="1503757292698" expanded="true" signature="173:691" ph="{...}" />
+                <marker date="1503757292698" expanded="true" signature="277:412" ph="{...}" />
+                <marker date="1503757292698" expanded="true" signature="382:406" ph="{...}" />
+                <marker date="1503757292698" expanded="true" signature="515:689" ph="{...}" />
+                <marker date="1503757292698" expanded="true" signature="659:683" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MarkovNodeMetadata.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/NitWitt.Markov/MarkovNodeMetadata.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="84">
+              <caret line="6" column="1" lean-forward="false" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+              <folding>
+                <marker date="1503756409298" expanded="true" signature="24:135" ph="{...}" />
+                <marker date="1503756409298" expanded="true" signature="78:133" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MarkovEdgeMetadata.cs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/NitWitt.Markov/MarkovEdgeMetadata.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="84">
+              <caret line="6" column="1" lean-forward="true" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+              <folding>
+                <marker date="1503756442242" expanded="true" signature="24:143" ph="{...}" />
+                <marker date="1503756442242" expanded="true" signature="78:141" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DirectedGraphEdge.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/NitWitt.Markov/DirectedGraphEdge.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="140">
+              <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+              <folding>
+                <marker date="1503757229197" expanded="true" signature="6:49" ph="..." />
+                <marker date="1503757229197" expanded="true" signature="75:586" ph="{...}" />
+                <marker date="1503757229197" expanded="true" signature="167:584" ph="{...}" />
+                <marker date="1503757229197" expanded="true" signature="466:578" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GraphMetadata.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/NitWitt.Markov/GraphMetadata.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="154">
+              <caret line="11" column="1" lean-forward="false" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+              <folding>
+                <marker date="1503756144083" expanded="true" signature="24:141" ph="{...}" />
+                <marker date="1503756144083" expanded="true" signature="61:82" ph="{...}" />
+                <marker date="1503756144083" expanded="true" signature="118:139" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DirectedGraphNode.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/NitWitt.Markov/DirectedGraphNode.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="308">
+              <caret line="22" column="41" lean-forward="false" selection-start-line="22" selection-start-column="41" selection-end-line="22" selection-end-column="41" />
+              <folding>
+                <marker date="1503757277258" expanded="true" signature="6:177" ph="..." />
+                <marker date="1503757277258" expanded="true" signature="203:911" ph="{...}" />
+                <marker date="1503757277258" expanded="true" signature="295:909" ph="{...}" />
+                <marker date="1503757277258" expanded="true" signature="696:775" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -114,27 +169,18 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ViewRequest.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/NitWitt/Models/ViewRequest.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="19" column="1" lean-forward="false" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
-              <folding>
-                <marker date="1503627131960" expanded="true" signature="24:340" ph="{...}" />
-                <marker date="1503627131960" expanded="true" signature="59:338" ph="{...}" />
-                <marker date="1503627131960" expanded="true" signature="96:173" ph="{...}" />
-                <marker date="1503627131960" expanded="true" signature="207:332" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/NitWitt.Markov/DirectedGraphNode.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/NitWitt.Markov/DirectedGraphEdge.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/NitWitt.Markov/GraphMetadata.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/NitWitt.Markov/MarkovNodeMetadata.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/NitWitt.Markov/MarkovEdgeMetadata.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/NitWitt/Global.asax.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/NitWitt.Markov/MarkovEngine.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/NitWitt/Global.asax" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/NitWitt.Markov/MarkovDataset.cs" root0="FORCE_HIGHLIGHTING" />
@@ -142,7 +188,6 @@
     <setting file="file://$PROJECT_DIR$/NitWitt.Markov/DirectedProbabilityGraph.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/NitWitt/Controllers/HomeController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/NitWitt/Models/ViewRequest.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/NitWitt/Global.asax.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -153,6 +198,12 @@
         <option value="$PROJECT_DIR$/NitWitt.Markov/Markov.cs" />
         <option value="$PROJECT_DIR$/NitWitt.Markov/MarkovEngine.cs" />
         <option value="$PROJECT_DIR$/NitWitt.Markov/MarkovDataset.cs" />
+        <option value="$PROJECT_DIR$/NitWitt.Markov/INodeMetadata.cs" />
+        <option value="$PROJECT_DIR$/NitWitt.Markov/GraphMetadata.cs" />
+        <option value="$PROJECT_DIR$/NitWitt.Markov/MarkovNodeMetadata.cs" />
+        <option value="$PROJECT_DIR$/NitWitt.Markov/MarkovEdgeMetadata.cs" />
+        <option value="$PROJECT_DIR$/NitWitt.Markov/DirectedGraphEdge.cs" />
+        <option value="$PROJECT_DIR$/NitWitt.Markov/DirectedGraphNode.cs" />
         <option value="$PROJECT_DIR$/NitWitt.Markov/DirectedProbabilityGraph.cs" />
       </list>
     </option>
@@ -209,6 +260,24 @@
               <option name="myItemId" value="NitWitt (2 projects)" />
               <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="NitWitt.Markov" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="References" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="NitWitt (2 projects)" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
           </PATH>
         </subPane>
         <option name="show-file-system" value="false" />
@@ -218,6 +287,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Bolster/Bolster/bin/Debug/Bolster.Base.Theory.dll" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -312,12 +382,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1503626934649</updated>
-      <workItem from="1503626936240" duration="842000" />
+      <workItem from="1503626936240" duration="3437000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="842000" />
+    <option name="totallyTimeSpent" value="3437000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -412,6 +482,59 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/NitWitt.Markov/DirectedGraphEdge.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding>
+            <marker date="1503757229197" expanded="true" signature="6:49" ph="..." />
+            <marker date="1503757229197" expanded="true" signature="75:586" ph="{...}" />
+            <marker date="1503757229197" expanded="true" signature="167:584" ph="{...}" />
+            <marker date="1503757229197" expanded="true" signature="466:578" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NitWitt.Markov/DirectedGraphNode.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="22" column="41" lean-forward="false" selection-start-line="22" selection-start-column="41" selection-end-line="22" selection-end-column="41" />
+          <folding>
+            <marker date="1503757277258" expanded="true" signature="6:177" ph="..." />
+            <marker date="1503757277258" expanded="true" signature="203:911" ph="{...}" />
+            <marker date="1503757277258" expanded="true" signature="295:909" ph="{...}" />
+            <marker date="1503757277258" expanded="true" signature="696:775" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NitWitt.Markov/DirectedProbabilityGraph.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="8" column="100" lean-forward="false" selection-start-line="8" selection-start-column="100" selection-end-line="8" selection-end-column="100" />
+          <folding>
+            <marker date="1503757292698" expanded="true" signature="6:147" ph="..." />
+            <marker date="1503757292698" expanded="true" signature="173:691" ph="{...}" />
+            <marker date="1503757292698" expanded="true" signature="277:412" ph="{...}" />
+            <marker date="1503757292698" expanded="true" signature="382:406" ph="{...}" />
+            <marker date="1503757292698" expanded="true" signature="515:689" ph="{...}" />
+            <marker date="1503757292698" expanded="true" signature="659:683" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NitWitt.Markov/GraphMetadata.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="11" column="1" lean-forward="false" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+          <folding>
+            <marker date="1503756144083" expanded="true" signature="24:141" ph="{...}" />
+            <marker date="1503756144083" expanded="true" signature="61:82" ph="{...}" />
+            <marker date="1503756144083" expanded="true" signature="118:139" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/NitWitt.Markov/Markov.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="56">
@@ -419,18 +542,6 @@
           <folding>
             <marker date="1503627622012" expanded="true" signature="24:73" ph="{...}" />
             <marker date="1503627622012" expanded="true" signature="50:71" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NitWitt.Markov/MarkovEngine.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="70">
-          <caret line="5" column="69" lean-forward="false" selection-start-line="5" selection-start-column="69" selection-end-line="5" selection-end-column="69" />
-          <folding>
-            <marker date="1503627634884" expanded="true" signature="39:201" ph="{...}" />
-            <marker date="1503627634884" expanded="true" signature="46:148" ph="/// The MarkovEngine provides a MarkovDataset based on input data ... " />
-            <marker date="1503627634884" expanded="true" signature="178:199" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -447,14 +558,36 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/NitWitt.Markov/DirectedProbabilityGraph.cs">
+    <entry file="file://$PROJECT_DIR$/NitWitt.Markov/MarkovEngine.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="10" column="1" lean-forward="false" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+        <state relative-caret-position="70">
+          <caret line="5" column="69" lean-forward="false" selection-start-line="5" selection-start-column="69" selection-end-line="5" selection-end-column="69" />
           <folding>
-            <marker date="1503627772765" expanded="true" signature="24:280" ph="{...}" />
-            <marker date="1503627772765" expanded="true" signature="31:215" ph="/// The DirectedProbabilityGraph is the underlying datastructure for the Markov system. ... " />
-            <marker date="1503627772765" expanded="true" signature="257:278" ph="{...}" />
+            <marker date="1503627634884" expanded="true" signature="39:201" ph="{...}" />
+            <marker date="1503627634884" expanded="true" signature="46:148" ph="/// The MarkovEngine provides a MarkovDataset based on input data ... " />
+            <marker date="1503627634884" expanded="true" signature="178:199" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NitWitt.Markov/MarkovNodeMetadata.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="6" column="1" lean-forward="false" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+          <folding>
+            <marker date="1503756409298" expanded="true" signature="24:135" ph="{...}" />
+            <marker date="1503756409298" expanded="true" signature="78:133" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NitWitt.Markov/MarkovEdgeMetadata.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="6" column="1" lean-forward="true" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+          <folding>
+            <marker date="1503756442242" expanded="true" signature="24:143" ph="{...}" />
+            <marker date="1503756442242" expanded="true" signature="78:141" ph="{...}" />
           </folding>
         </state>
       </provider>

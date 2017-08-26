@@ -33,16 +33,36 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Bolster, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <HintPath>..\..\Bolster\Bolster\bin\Debug\Bolster.dll</HintPath>
+    </Reference>
+    <Reference Include="Bolster.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <HintPath>..\..\Bolster\Bolster\bin\Debug\Bolster.API.dll</HintPath>
+    </Reference>
+    <Reference Include="Bolster.Base, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <HintPath>..\..\Bolster\Bolster\bin\Debug\Bolster.Base.dll</HintPath>
+    </Reference>
+    <Reference Include="Bolster.Base.Theory, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <HintPath>..\..\Bolster\Bolster\bin\Debug\Bolster.Base.Theory.dll</HintPath>
+    </Reference>
+    <Reference Include="Bolster.Utility, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <HintPath>..\..\Bolster\Bolster\bin\Debug\Bolster.Utility.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Data" />
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DirectedGraphEdge.cs" />
+    <Compile Include="DirectedGraphNode.cs" />
     <Compile Include="DirectedProbabilityGraph.cs" />
+    <Compile Include="GraphMetadata.cs" />
     <Compile Include="Markov.cs" />
     <Compile Include="MarkovDataset.cs" />
+    <Compile Include="MarkovEdgeMetadata.cs" />
     <Compile Include="MarkovEngine.cs" />
+    <Compile Include="MarkovNodeMetadata.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

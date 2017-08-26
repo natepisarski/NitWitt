@@ -3,3 +3,8 @@
 /home/nate/Code/Project/NitWitt/NitWitt.Markov/bin/Debug/NitWitt.Markov.dll
 /home/nate/Code/Project/NitWitt/NitWitt.Markov/obj/Debug/NitWitt.Markov.dll
 /home/nate/Code/Project/NitWitt/NitWitt.Markov/obj/Debug/NitWitt.Markov.dll.mdb
+/home/nate/Code/Project/NitWitt/NitWitt.Markov/bin/Debug/Bolster.dll
+/home/nate/Code/Project/NitWitt/NitWitt.Markov/bin/Debug/Bolster.API.dll
+/home/nate/Code/Project/NitWitt/NitWitt.Markov/bin/Debug/Bolster.Base.dll
+/home/nate/Code/Project/NitWitt/NitWitt.Markov/bin/Debug/Bolster.Base.Theory.dll
+/home/nate/Code/Project/NitWitt/NitWitt.Markov/bin/Debug/Bolster.Utility.dll
