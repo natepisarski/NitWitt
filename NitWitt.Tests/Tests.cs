@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Linq;
 using NUnit.Framework;
 
 namespace NitWitt.Tests
@@ -9,7 +10,7 @@ namespace NitWitt.Tests
         [Test]
         public static void TestGraphGeneration() {
             var graph = Markov.Markov.CreateGraphFrom("The Quick Brown Fox Jumps Over The Lazy Dog");
-            Assert.True(graph.Nodes.Count == 6);
+            Assert.AreEqual(8, graph.Nodes.Count);
         }
     }
 }

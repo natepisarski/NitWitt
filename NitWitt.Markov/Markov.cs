@@ -7,7 +7,8 @@ namespace NitWitt.Markov
     {
         public static DirectedProbabilityGraph CreateGraphFrom(string sentence, int magnitude = 1) {
             var graph = new DirectedProbabilityGraph(magnitude);
-            graph.AddFrom(sentence.Split(' '));
+            var source = sentence.Split(' ');
+            graph.AddFrom(source);
             graph.OptimizeGraph();
             return graph;
         }

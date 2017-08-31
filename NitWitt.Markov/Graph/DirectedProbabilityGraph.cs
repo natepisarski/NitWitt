@@ -35,6 +35,7 @@ namespace NitWitt.Markov.Graph
                     var node = new MarkovNode(
                         tokens.Skip(i).Take(Magnitude).ToList()
                     );
+                    Nodes.Add(node);
                     lastNode?.AddConnection(new MarkovEdge(lastNode, node));
                     lastNode = node;
                 }
@@ -42,12 +43,17 @@ namespace NitWitt.Markov.Graph
         }
 
         public Either<Success, Failure> OptimizeGraph() {
+            List<MarkovNode> nodesToRemove = new List<MarkovNode>();
+            bool shouldRemoveNode = false;
             return Status.Safely(() => {
                 foreach (MarkovNode node in Nodes) {
+                    shouldRemoveNode = false;
                     Nodes.ForEach(
                         otherNode => {
-                            if (otherNode != node && otherNode.Data.Equals(node.Data)) {
-                                otherNode.AddConnections(node.Edges.ToArray());
+                            if (otherNode != node &&
+                                otherNode.Data.All(t => node.Data.Contains(t))) {
+                                    otherNode.AddConnections(node.Edges.ToArray());
+                                Nodes.Remove(node);
                             }
                         });
                 }
