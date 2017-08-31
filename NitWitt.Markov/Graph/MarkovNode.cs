@@ -4,56 +4,44 @@ using System.Linq;
 
 namespace NitWitt.Markov.Graph
 {
-    public class MarkovNode : DirectedGraphNode<List<string>, MarkovNodeMetadata, MarkovEdgeMetadata>
+    public class MarkovNode
     {
-        private readonly Random generator = new Random((int) DateTime.UtcNow.Ticks);
+        public string Data { get; }
+
+        public List<MarkovEdge> Connections { get; set; } = new List<MarkovEdge>();
+
+        public int ConnectionCount => Connections.Count;
         
-        public MarkovNode(List<string> words, MarkovNodeMetadata data = null) : base(words, data) {
-            
+        public int TotalAdded { get; private set; }
+        
+        private readonly Random _generator = new Random();
+        
+        public MarkovNode(string data) {
+            Data = data;
         }
 
-        public List<MarkovEdge> Edges => Connections.Select(x => (MarkovEdge) x).ToList();
-
-        public void AddConnections(params MarkovEdge[] edges) {
-            foreach (var edge in edges) {
-                AddConnection(edge);
-            }    
+        public void AddConnection(MarkovEdge edge) {
+            TotalAdded++;
+            var existingConnection = Connections.FirstOrDefault(c => c.IsConnectedTo(edge.TargetData));
+            if (existingConnection != null) {
+                existingConnection.Probability += (1.0 / TotalAdded);
+            }
+            edge.Probability = 1.0 / TotalAdded;
+            Connections.Add(edge);
         }
-        
-        public MarkovEdge ChooseEdgeBasedOnProbability() {
-            // Each edge has metadata with a probability from 0 to 1
-            double chooser = 1;
+
+        public MarkovEdge GetEdgeBasedOnProbability() {
+            double chooser = 1.0;
             MarkovEdge chosen = null;
-
-            while (chosen == null || chooser <= 0) {
-                
-                // Randomly reduces the chooser by a number between 0 and 1
-                chooser -= generator.NextDouble();
-                chosen = Edges.Where(edge => {
-                    if (!edge.Metadata.HasValue) {
-                        return false;
-                    }
-                    var probability = edge.Metadata.Return().Probability;
-                    
-                    /*
-                    * The chance that the probability is greater than the chooser (which was randomly reduced)
-                    * increases if probability is higher. Thus, items with a higher probability have a higher chance
-                    * of being chosen.
-                    */
-                    return probability >= chooser;
-                    
-                    // If multiple probabilities meet the criteria, the one with the lowest chance is chosen
-                }).OrderBy(edge => edge.Metadata.Return().Probability).Reverse().FirstOrDefault();
+            
+            while (chosen == null && chooser > 0.0) {
+                chooser -= _generator.NextDouble();
+                var possibleEdges = Connections.Where(e => e.Probability >= chooser);
+                if (possibleEdges.Any()) {
+                    chosen = possibleEdges.OrderBy(e => e.Probability).FirstOrDefault();
+                }
             }
             return chosen;
-        }
-
-        public string Generate(int sentenceLength, string prefix = "") 
-            => sentenceLength == 0 ? prefix : ChooseEdgeBasedOnProbability().MarkovTarget.Generate(sentenceLength - 1);
-        
-        
-        public MarkovEdge ChooseRandomConnection() {
-            return Edges[generator.Next(0, Connections.Count)];
         }
     }
 }

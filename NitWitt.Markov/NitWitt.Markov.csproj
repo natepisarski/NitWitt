@@ -54,14 +54,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Graph\DirectedGraphEdge.cs" />
-    <Compile Include="Graph\DirectedGraphNode.cs" />
-    <Compile Include="Graph\DirectedProbabilityGraph.cs" />
-    <Compile Include="Graph\GraphMetadata.cs" />
     <Compile Include="Graph\MarkovEdge.cs" />
-    <Compile Include="Graph\MarkovEdgeMetadata.cs" />
+    <Compile Include="Graph\MarkovGraph.cs" />
     <Compile Include="Graph\MarkovNode.cs" />
-    <Compile Include="Graph\MarkovNodeMetadata.cs" />
     <Compile Include="Markov.cs" />
     <Compile Include="MarkovDataset.cs" />
     <Compile Include="MarkovEngine.cs" />

@@ -92,6 +92,12 @@
     <Content Include="packages.config" />
     <Content Include="Web.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\NitWitt.Markov\NitWitt.Markov.csproj">
+      <Project>{5bc91fed-91f4-4883-9674-8ca3e87c29eb}</Project>
+      <Name>NitWitt.Markov</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

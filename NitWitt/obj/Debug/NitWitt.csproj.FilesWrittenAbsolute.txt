@@ -14,3 +14,5 @@
 /home/nate/Code/Project/NitWitt/NitWitt/bin/System.Web.WebPages.dll
 /home/nate/Code/Project/NitWitt/NitWitt/bin/System.Web.WebPages.Deployment.dll
 /home/nate/Code/Project/NitWitt/NitWitt/bin/System.Web.WebPages.Razor.dll
+/home/nate/Code/Project/NitWitt/NitWitt/bin/NitWitt.Markov.dll
+/home/nate/Code/Project/NitWitt/NitWitt/bin/NitWitt.Markov.dll.mdb
