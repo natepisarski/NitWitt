@@ -9,7 +9,6 @@ export class Home extends React.Component {
         return (
             <div>
                 <h1>Get Excited! Routing works</h1>
-                {this.props.children}
             </div>
         )
     }
